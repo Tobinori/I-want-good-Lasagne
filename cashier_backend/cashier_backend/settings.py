@@ -47,6 +47,8 @@ INSTALLED_APPS = [
 
     # Your apps
     'authentication',
+    # Added manually
+    'core',
 ]
 
 #Added manually
@@ -92,8 +94,12 @@ WSGI_APPLICATION = 'cashier_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cashier_system',       # Your PostgreSQL database name
+        'USER': 'postgres',             # Your PostgreSQL username
+        'PASSWORD': 'rootroot',    # Replace with your actual PostgreSQL password
+        'HOST': 'localhost',            # Use 'localhost' for local dev
+        'PORT': '5432',                 # Default PostgreSQL port
     }
 }
 
