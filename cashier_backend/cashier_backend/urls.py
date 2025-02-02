@@ -26,5 +26,6 @@ urlpatterns = [
     #Added manually
     path('api/auth/', include('authentication.urls')),
     path('', homepage),
+    path('', include('core.urls')),
 
 ]

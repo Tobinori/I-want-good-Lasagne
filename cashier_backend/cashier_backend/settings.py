@@ -48,13 +48,14 @@ INSTALLED_APPS = [
     # Your apps
     'authentication',
     # Added manually
-    'core',
+    'core', # My app     # Django REST Framework
 ]
 
 #Added manually
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',  
     ),
 }
 
