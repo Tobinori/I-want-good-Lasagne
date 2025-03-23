@@ -16,7 +16,8 @@ The main goal of this project is to:
 
 For **customers**, the app offers a new way to interact with food:  
 - **Search for dishes** instead of restaurants, making it easier to find what they crave.  
-- **View reviews** on individual dishes to make better dining decisions.  
+- **View reviews** on individual dishes to make better dining decisions.
+- **Order dishes** with personal preference and allergy/diet information.  
 - **Rate dishes** themselves, with the option to:  
   - **Send private feedback** directly to the kitchen.  
   - **Share public reviews** with other users.  
@@ -39,10 +40,7 @@ For **customers**, the app offers a new way to interact with food:
 ### 📱 **Frontend (Android - Kotlin)**
 - **Login System** with token-based authentication  
 - API communication setup with **Retrofit**  
-- **Order Management:**  
-  - View current orders  
-  - Create new orders  
-- Basic UI for login and order screens  
+- Basic UI for login
 - Project structure following **MVVM architecture**  
 
 ---
@@ -50,7 +48,10 @@ For **customers**, the app offers a new way to interact with food:
 ## 🚀 **What's Coming Next**
 
 ### **Short-Term Goals**  
-- **Frontend:**  
+- **Frontend:**
+  - **Order Management:**  
+    - View current orders  
+    - Create new orders  
   - Add **dish search functionality**  
   - Implement **dish reviews**, including private feedback options  
   - Improve UI for a more intuitive user experience  
